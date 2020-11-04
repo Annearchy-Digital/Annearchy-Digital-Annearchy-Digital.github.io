@@ -12,21 +12,31 @@ var Paths = {
   SCSS: './assets/scss/**/**'
 };
 
-const compiler = gulp.task('compile-scss', function() {
+const compile = (cb) => {
   return gulp.src(Paths.SCSS_TOOLKIT_SOURCES)
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(sourcemaps.write(Paths.HERE))
     .pipe(gulp.dest(Paths.CSS))
-    .pipe(browserSync.reload());
-});
+}
+
+const reload = (cb) => {
+  browserSync.reload()
+  cb()
+}
+
+gulp.task('reload', reload)
+
+gulp.task('compile-scss', compile);
 
 gulp.task('watch', function() {
-  gulp.watch(Paths.SCSS, compiler);
+  gulp.watch(Paths.SCSS, gulp.series(compile, reload));
+  gulp.watch('./index.html', browserSync.reload)
 });
 
 gulp.task('open', function() {
+  compile()
   browserSync.init({
     server: {
       baseDir: '.'
