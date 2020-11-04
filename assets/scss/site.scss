@@ -68,11 +68,14 @@ a {font-weight: 400;}
     h1,h2,h3,p {
         color: $background-black;
     }
+
+    img {
+        margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
 }
 
 .daughters {
     border-radius: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     filter: grayscale(50%) contrast(125%)
 }

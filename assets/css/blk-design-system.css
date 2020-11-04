@@ -16022,11 +16022,12 @@ a {
   padding-bottom: 1rem; }
   .ribbon-neutral h1, .ribbon-neutral h2, .ribbon-neutral h3, .ribbon-neutral p {
     color: #042256; }
+  .ribbon-neutral img {
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
 
 .daughters {
   border-radius: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   -webkit-filter: grayscale(50%) contrast(125%);
           filter: grayscale(50%) contrast(125%); }
 
