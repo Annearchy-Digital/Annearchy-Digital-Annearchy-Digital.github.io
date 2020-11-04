@@ -32,7 +32,7 @@ gulp.task('compile-scss', compile);
 
 gulp.task('watch', function(cb) {
   gulp.watch(Paths.SCSS, gulp.series(compile, reload));
-  gulp.watch('./index.html', browserSync.reload)
+  gulp.watch('./index.html', reload)
   cb()
 });
 

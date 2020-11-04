@@ -1,18 +1,18 @@
-h1 {
-    font-family: $font-family-title;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-
-h2 {
-    font-family: $font-family-title;
-    text-transform: uppercase;
-    font-weight: 700;
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
 }
 
 h1.landing {
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .page-header .content-center.brand {
+        width: 95%
+    }
 }
 
 .logo {
@@ -38,6 +38,16 @@ h2 {
 p strong {
     font-weight: bold;
 } 
+
 p {
     margin-bottom: 1rem;
+    color: white;
+}
+
+.info:first-of-type {
+    padding-top:0;
+
+    p {
+        margin-bottom: 0;
+    }
 }
