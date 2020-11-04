@@ -1,9 +1,8 @@
 var gulp = require('gulp');
-var path = require('path');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
-var open = require('gulp-open');
+var browserSync = require('browser-sync').create();
 
 var Paths = {
   HERE: './',
@@ -19,7 +18,8 @@ const compiler = gulp.task('compile-scss', function() {
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(sourcemaps.write(Paths.HERE))
-    .pipe(gulp.dest(Paths.CSS));
+    .pipe(gulp.dest(Paths.CSS))
+    .pipe(browserSync.reload());
 });
 
 gulp.task('watch', function() {
@@ -27,6 +27,9 @@ gulp.task('watch', function() {
 });
 
 gulp.task('open', function() {
-  gulp.src('index.html')
-    .pipe(open());
-});
+  browserSync.init({
+    server: {
+      baseDir: '.'
+    },
+  })
+})
