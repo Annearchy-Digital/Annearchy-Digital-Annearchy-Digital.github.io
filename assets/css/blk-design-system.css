@@ -94,8 +94,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 0.875rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #525f7f;
@@ -348,22 +348,22 @@ h1, h2, h3, h4, h5, h6,
   color: #32325d; }
 
 h1, .h1 {
-  font-size: 2.0625rem; }
+  font-size: 2.35714rem; }
 
 h2, .h2 {
-  font-size: 1.6875rem; }
+  font-size: 1.92857rem; }
 
 h3, .h3 {
-  font-size: 1.4375rem; }
+  font-size: 1.64286rem; }
 
 h4, .h4 {
-  font-size: 1.0625rem; }
+  font-size: 1.21429rem; }
 
 h5, .h5 {
-  font-size: 0.8125rem; }
+  font-size: 0.92857rem; }
 
 h6, .h6 {
-  font-size: 0.75rem; }
+  font-size: 0.85714rem; }
 
 .lead {
   font-size: 0.78125rem;
@@ -424,7 +424,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 0.9625rem; }
+  font-size: 1.1rem; }
 
 .blockquote-footer {
   display: block;
@@ -1640,9 +1640,9 @@ pre {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.42857rem + 2px);
   padding: 0.5rem 0.7rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.42857;
   color: rgba(255, 255, 255, 0.8);
   background-color: transparent;
@@ -1702,13 +1702,13 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.875rem + 1px);
   padding-bottom: calc(0.875rem + 1px);
-  font-size: 0.99925rem;
+  font-size: 1.142rem;
   line-height: 1.35; }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   line-height: 1.35; }
 
 .form-control-plaintext {
@@ -1727,16 +1727,16 @@ select.form-control:focus::-ms-value {
     padding-left: 0; }
 
 .form-control-sm {
-  height: calc(1.5125rem + 2px);
+  height: calc(1.65714rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   line-height: 1.35;
   border-radius: 0.2857rem; }
 
 .form-control-lg {
-  height: calc(3.09899rem + 2px);
+  height: calc(3.2917rem + 2px);
   padding: 0.875rem 1rem;
-  font-size: 0.99925rem;
+  font-size: 1.142rem;
   line-height: 1.35;
   border-radius: 0.4285rem; }
 
@@ -1811,7 +1811,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   line-height: 1.5;
   color: #ffffff;
   background-color: rgba(0, 158, 153, 0.9);
@@ -1896,7 +1896,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   line-height: 1.5;
   color: #ffffff;
   background-color: rgba(153, 148, 0, 0.9);
@@ -2054,7 +2054,7 @@ textarea.form-control {
           user-select: none;
   border: 1px solid transparent;
   padding: 11px 40px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.35em;
   border-radius: 0.25rem;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -2732,13 +2732,13 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 15px 48px;
-  font-size: 0.99925rem;
+  font-size: 1.142rem;
   line-height: 1.35;
   border-radius: 0.4285rem; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 15px;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   line-height: 1.35;
   border-radius: 0.25rem; }
 
@@ -2808,7 +2808,7 @@ input[type="button"].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #525f7f;
   text-align: left;
   list-style: none;
@@ -2944,7 +2944,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   color: #6c757d;
   white-space: nowrap; }
 
@@ -3167,7 +3167,7 @@ input[type="button"].btn-block {
           align-items: center;
   padding: 0.5rem 0.7rem;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.42857;
   color: #adb5bd;
@@ -3185,9 +3185,9 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
-  height: calc(3.09899rem + 2px);
+  height: calc(3.2917rem + 2px);
   padding: 0.875rem 1rem;
-  font-size: 0.99925rem;
+  font-size: 1.142rem;
   line-height: 1.35;
   border-radius: 0.4285rem; }
 
@@ -3196,9 +3196,9 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  height: calc(1.5125rem + 2px);
+  height: calc(1.65714rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   line-height: 1.35;
   border-radius: 0.2857rem; }
 
@@ -3223,7 +3223,7 @@ input[type="button"].btn-block {
 .custom-control {
   position: relative;
   display: block;
-  min-height: 1.3125rem;
+  min-height: 1.5rem;
   padding-left: 1.75rem; }
 
 .custom-control-inline {
@@ -3259,7 +3259,7 @@ input[type="button"].btn-block {
   margin-bottom: 0; }
   .custom-control-label::before {
     position: absolute;
-    top: 0.03125rem;
+    top: 0.125rem;
     left: -1.75rem;
     display: block;
     width: 1.25rem;
@@ -3275,7 +3275,7 @@ input[type="button"].btn-block {
             box-shadow: none; }
   .custom-control-label::after {
     position: absolute;
-    top: 0.03125rem;
+    top: 0.125rem;
     left: -1.75rem;
     display: block;
     width: 1.25rem;
@@ -3323,7 +3323,7 @@ input[type="button"].btn-block {
 .custom-select {
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.42857rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   line-height: 1.42857;
   color: rgba(255, 255, 255, 0.8);
@@ -3356,13 +3356,13 @@ input[type="button"].btn-block {
     opacity: 0; }
 
 .custom-select-sm {
-  height: calc(1.5125rem + 2px);
+  height: calc(1.65714rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 75%; }
 
 .custom-select-lg {
-  height: calc(3.09899rem + 2px);
+  height: calc(3.2917rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%; }
@@ -3371,14 +3371,14 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.42857rem + 2px);
   margin-bottom: 0; }
 
 .custom-file-input {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.42857rem + 2px);
   margin: 0;
   opacity: 0; }
   .custom-file-input:focus ~ .custom-file-label {
@@ -3398,7 +3398,7 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc(2.25rem + 2px);
+  height: calc(2.42857rem + 2px);
   padding: 0.5rem 0.7rem;
   line-height: 1.42857;
   color: rgba(255, 255, 255, 0.8);
@@ -3414,7 +3414,7 @@ input[type="button"].btn-block {
     bottom: 0;
     z-index: 3;
     display: block;
-    height: 2.25rem;
+    height: 2.42857rem;
     padding: 0.5rem 0.7rem;
     line-height: 1.42857;
     color: rgba(255, 255, 255, 0.8);
@@ -3652,10 +3652,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.40681rem;
-  padding-bottom: 0.40681rem;
+  padding-top: 0.3935rem;
+  padding-bottom: 0.3935rem;
   margin-right: 0.9375rem;
-  font-size: 0.99925rem;
+  font-size: 1.142rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -3696,7 +3696,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 0.99925rem;
+  font-size: 1.142rem;
   line-height: 1;
   background-color: transparent;
   border: 0.0625rem solid transparent;
@@ -4272,7 +4272,7 @@ input[type="button"].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 0.99925rem;
+  font-size: 1.142rem;
   line-height: 1.625rem; }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -4285,7 +4285,7 @@ input[type="button"].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   line-height: 1.5; }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -4299,7 +4299,7 @@ input[type="button"].btn-block {
 .badge {
   display: inline-block;
   padding: 0.25rem 0.5rem;
-  font-size: 0.62475rem;
+  font-size: 0.714rem;
   font-weight: 700;
   line-height: 1;
   text-align: center;
@@ -4442,7 +4442,7 @@ input[type="button"].btn-block {
   font-weight: 600; }
 
 .alert-dismissible {
-  padding-right: 3.8125rem; }
+  padding-right: 4rem; }
   .alert-dismissible .close {
     position: absolute;
     top: 0;
@@ -4576,7 +4576,7 @@ input[type="button"].btn-block {
   display: flex;
   height: 0.5rem;
   overflow: hidden;
-  font-size: 0.65625rem;
+  font-size: 0.75rem;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0.875rem;
   -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.3);
@@ -4819,7 +4819,7 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 1.3125rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1;
   color: rgba(0, 0, 0, 0.6);
@@ -4996,7 +4996,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5010,7 +5010,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   word-wrap: break-word;
   opacity: 0; }
   .tooltip.show {
@@ -5081,7 +5081,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5095,7 +5095,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   word-wrap: break-word;
   background-color: #ffffff;
   background-clip: padding-box;
@@ -5202,7 +5202,7 @@ button.close {
 .popover-header {
   padding: 0.75rem 0.75rem;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #32325d;
   background-color: #ffffff;
   border-bottom: 1px solid #f2f2f2;
@@ -9322,14 +9322,14 @@ fieldset[disabled]
             transform: none !important; }
 
 .btn-lg, .btn-group-lg > .btn {
-  font-size: 0.875rem;
+  font-size: 1rem;
   border-radius: 0.4285rem;
   padding: 15px 48px; }
   .btn-lg.btn-simple, .btn-group-lg > .btn-simple.btn {
     padding: 14px 47px; }
 
 .btn-sm, .btn-group-sm > .btn {
-  font-size: 0.875rem;
+  font-size: 1rem;
   border-radius: 0.2857rem;
   padding: 5px 15px; }
   .btn-sm.btn-simple, .btn-group-sm > .btn-simple.btn {
@@ -9619,7 +9619,7 @@ fieldset[disabled]
     left: auto !important; }
   .dropdown-menu .dropdown-item,
   .bootstrap-select .dropdown-menu.inner li a {
-    font-size: 0.75rem;
+    font-size: 0.85714rem;
     padding-top: .6rem;
     padding-bottom: .6rem;
     margin-top: 5px;
@@ -9645,7 +9645,7 @@ fieldset[disabled]
     background-color: rgba(222, 222, 222, 0.5); }
   .dropdown-menu .dropdown-header:not([href]):not([tabindex]) {
     color: rgba(182, 182, 182, 0.6);
-    font-size: 0.62475rem;
+    font-size: 0.714rem;
     text-transform: uppercase;
     font-weight: 600; }
   .dropdown-menu.dropdown-primary {
@@ -9828,7 +9828,7 @@ fieldset[disabled]
   .footer .nav-link {
     color: #ffffff;
     padding: 10px 0;
-    font-size: 0.75rem;
+    font-size: 0.85714rem;
     text-transform: uppercase;
     text-decoration: none; }
     .footer .nav-link:hover {
@@ -9836,7 +9836,7 @@ fieldset[disabled]
   .footer .title {
     text-align: left !important; }
   .footer .copyright {
-    font-size: 0.75rem;
+    font-size: 0.85714rem;
     line-height: 1.8;
     color: #ffffff; }
   .footer:after {
@@ -9895,7 +9895,7 @@ fieldset[disabled]
 .form-control {
   border-color: #2b3553;
   border-radius: 0.4285rem;
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out; }
   .form-control:focus {
@@ -10928,13 +10928,13 @@ img {
     display: block;
     padding-bottom: 1rem; }
     .navbar .navbar-collapse .navbar-collapse-header .collapse-brand {
-      font-size: 1.2495rem;
+      font-size: 1.428rem;
       color: #ffffff; }
       .navbar .navbar-collapse .navbar-collapse-header .collapse-brand a {
         font-weight: 600; }
     .navbar .navbar-collapse .navbar-collapse-header .collapse-close .navbar-toggler {
       color: #ffffff;
-      font-size: 1.2495rem; }
+      font-size: 1.428rem; }
   .navbar .navbar-collapse .navbar-nav li {
     padding: 0px; }
   .navbar .navbar-nav .btn {
@@ -11245,7 +11245,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Libre Franklin", sans-serif; }
 
 .card h1, .card h2, .card h3, .card h4, .card h5, .card h6, .card p {
   color: rgba(255, 255, 255, 0.8); }
@@ -11323,20 +11323,20 @@ p {
   text-transform: capitalize;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 0.75rem; }
+  font-size: 0.85714rem; }
 
 .card-category {
-  font-size: 0.75rem; }
+  font-size: 0.85714rem; }
 
 .blockquote {
   border-left: none;
   border: 1px solid #0F65FA;
   padding: 20px;
-  font-size: 0.9625rem;
+  font-size: 1.1rem;
   line-height: 1.8; }
   .blockquote small {
     color: #0F65FA;
-    font-size: 0.75rem;
+    font-size: 0.85714rem;
     text-transform: uppercase; }
   .blockquote.blockquote-primary {
     border-color: #0070D1;
@@ -11584,7 +11584,7 @@ hr {
 
 .table .td-total {
   font-weight: 600;
-  font-size: 0.8125rem;
+  font-size: 0.92857rem;
   padding-top: 20px;
   text-align: right; }
 
@@ -11859,7 +11859,7 @@ hr {
     .fixed-plugin .adjustments-line .togglebutton .label-switch {
       position: relative;
       left: -10px;
-      font-size: 0.62475rem;
+      font-size: 0.714rem;
       color: #ffffff; }
       .fixed-plugin .adjustments-line .togglebutton .label-switch.label-right {
         left: 10px; }
@@ -11868,7 +11868,7 @@ hr {
   .fixed-plugin .adjustments-line .color-label {
     position: relative;
     top: -7px;
-    font-size: 0.62475rem;
+    font-size: 0.714rem;
     color: #ffffff; }
   .fixed-plugin .adjustments-line .dropdown-menu > li.adjustments-line > a {
     padding-right: 0;
@@ -12639,7 +12639,7 @@ textarea.form-control {
   z-index: 100; }
 
 .form-text {
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   color: rgba(255, 255, 255, 0.8); }
 
 .form-control-lg {
@@ -12951,7 +12951,7 @@ textarea.form-control {
   .profile-page .profile-description {
     margin-top: -30px;
     max-width: 450px;
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 26px; }
   .profile-page .profile-container {
     color: #ffffff; }
@@ -13158,13 +13158,13 @@ textarea.form-control {
       top: -3px;
       left: -27px;
       color: #ffffff;
-      font-size: 0.62475rem; }
+      font-size: 0.714rem; }
   .progress-container + .progress-container,
   .progress-container ~ .progress-container {
     margin-top: 15px; }
   .progress-container .progress-badge {
     color: #ffffff;
-    font-size: 0.75rem;
+    font-size: 0.85714rem;
     text-transform: uppercase; }
     .progress-container .progress-badge.float-left {
       margin-right: 20px; }
@@ -13182,7 +13182,7 @@ textarea.form-control {
         top: 2px;
         right: 0;
         color: #ffffff;
-        font-size: 0.62475rem; }
+        font-size: 0.714rem; }
     .progress-container .progress.progress-bar-sm {
       height: 3px; }
   .progress-container.progress-neutral .progress {
@@ -13406,7 +13406,7 @@ textarea.form-control {
   .info .icon {
     color: #0F65FA; }
     .info .icon > i {
-      font-size: 2.0625rem; }
+      font-size: 2.35714rem; }
   .info .info-title {
     color: #ffffff;
     margin: 1.75rem 0 0.875rem; }
@@ -13437,7 +13437,7 @@ hr {
   margin-top: 24px;
   margin-right: 10px; }
   .info-horizontal .icon > i {
-    font-size: 2.0625rem; }
+    font-size: 2.35714rem; }
 
 .info-horizontal .description {
   overflow: hidden; }
@@ -14244,7 +14244,7 @@ hr {
 
 .bd-example .row > .col span,
 .bd-example .row > [class^=col-] span {
-  font-size: 0.75rem;
+  font-size: 0.85714rem;
   display: block;
   margin: 1rem 0;
   padding: .75rem;
@@ -15646,7 +15646,7 @@ input.datetimepicker[data-color="yellow"] + .bootstrap-datetimepicker-widget {
     border-radius: 50%;
     margin-bottom: 15px; }
   .card label {
-    font-size: 0.75rem;
+    font-size: 0.85714rem;
     margin-bottom: 5px; }
   .card .card-footer {
     background-color: transparent;
@@ -15965,5 +15965,42 @@ input.datetimepicker[data-color="yellow"] + .bootstrap-datetimepicker-widget {
     top: 20px; }
     .card-chart .dropdown .btn {
       margin: 0; }
+
+h1 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900; }
+
+h2 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+h1.landing {
+  font-size: 3rem;
+  margin-bottom: 1rem; }
+
+.logo {
+  height: 100%;
+  width: 70%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+footer .logo {
+  width: 100%; }
+
+.navbar-transparent .logo {
+  height: 100%;
+  width: 100%; }
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
+
+p strong {
+  font-weight: bold; }
+
+p {
+  margin-bottom: 1rem; }
 
 /*# sourceMappingURL=blk-design-system.css.map */

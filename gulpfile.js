@@ -12,7 +12,7 @@ var Paths = {
   SCSS: './assets/scss/**/**'
 };
 
-const compile = (cb) => {
+const compile = () => {
   return gulp.src(Paths.SCSS_TOOLKIT_SOURCES)
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
@@ -30,9 +30,10 @@ gulp.task('reload', reload)
 
 gulp.task('compile-scss', compile);
 
-gulp.task('watch', function() {
+gulp.task('watch', function(cb) {
   gulp.watch(Paths.SCSS, gulp.series(compile, reload));
   gulp.watch('./index.html', browserSync.reload)
+  cb()
 });
 
 gulp.task('open', function() {

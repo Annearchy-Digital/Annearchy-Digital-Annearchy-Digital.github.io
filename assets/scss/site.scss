@@ -1,0 +1,43 @@
+h1 {
+    font-family: $font-family-title;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: $font-family-title;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1.landing {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    height: 100%;
+    width: 70%;
+    transition: all 0.3s;
+}
+
+footer .logo {
+    width: 100%;
+}
+
+.navbar-transparent .logo {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+p strong {
+    font-weight: bold;
+} 
+p {
+    margin-bottom: 1rem;
+}
