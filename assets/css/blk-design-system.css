@@ -37,7 +37,7 @@
             transform: translateX(-10px); } }
 
 :root {
-  --blue: #5e72e4;
+  --blue: #A8D7FF;
   --indigo: #5603ad;
   --purple: #8965e0;
   --pink: #f3a4b5;
@@ -16001,11 +16001,24 @@ p strong {
 
 p {
   margin-bottom: 1rem;
-  color: white; }
+  color: white;
+  font-weight: 400; }
 
 .info:first-of-type {
   padding-top: 0; }
   .info:first-of-type p {
     margin-bottom: 0; }
+
+.ribbon-neutral {
+  background-color: #A8D7FF;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .ribbon-neutral h1, .ribbon-neutral h2, .ribbon-neutral h3, .ribbon-neutral p {
+    color: #042256; }
+
+.daughters {
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
 
 /*# sourceMappingURL=blk-design-system.css.map */
