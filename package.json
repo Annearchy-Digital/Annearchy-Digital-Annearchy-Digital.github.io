@@ -1,0 +1,22 @@
+{
+  "name": "annearchy",
+  "description": "Annearchy.Digital Website",
+  "version": "1.0.1",
+  "homepage": "http://Annearchy.Digital",
+  "author": "Erik Ralston",
+  "license": "MIT License",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "start": "gulp open watch"
+  }
+}
