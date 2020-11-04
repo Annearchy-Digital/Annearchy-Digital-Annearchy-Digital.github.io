@@ -16019,6 +16019,8 @@ p {
 .daughters {
   border-radius: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  -webkit-filter: grayscale(50%) contrast(125%);
+          filter: grayscale(50%) contrast(125%); }
 
 /*# sourceMappingURL=blk-design-system.css.map */
